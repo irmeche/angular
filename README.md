@@ -1,44 +1,56 @@
-- see: https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git
+* Web site: see: https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git
 
-- parametrer les couleur de git
-#git config --global color.diff auto
-#git config --global color.status auto
-#git config --global color.branch auto
+####parametrer les couleur de git:
 
-- parametrer le nom et email
-#git config --global user.name "belaid"
-"git config --global user.email irmeche@gmail.com
+	git config --global color.diff auto
+	git config --global color.status auto
+	git config --global color.branch auto
 
-- create un fichier
-#echo "# jsf" >> README.md
+####parametrer le nom et email:
 
-- initialiser le repo git
-#git init
+	git config --global user.name "belaid"
+	git config --global user.email irmeche@gmail.com
 
-- voir l'état des modifications 
-#git status
+####create un fichier:
 
-- voir les changements
-#git diff
+	echo "# jsf" >> README.md
 
-- pour ajouter les fichiers à la liste de ceux devant faire l’objet d’un commit
-#git add README.md nomfichier2
+####initialiser le repo git
+	git init
 
-- faire un commit
-#git commit
+####voir l'état des modifications :
 
-- faire un commit avec un commentaire
-#git commit -m "first commit"
+	git status
 
-- pour « commiter » tous les fichiers qui étaient listés dans git status
-#git commit -a
+####voir les changements:
 
-- pour indiquer lors du commit quels fichiers précis doivent être « commités »
-#git commit nomfichier1 nomfichier2
+	git diff
 
-- créer un serveur de repository , À exécuter sur le serveur.
-#git init --bare 
+####pour ajouter les fichiers à la liste de ceux devant faire l’objet d’un commit:
 
-- push an existing repository from the command line
-#git remote add origin https://github.com/irmeche/jsf.git
-#git push -u origin master
+	git add README.md nomfichier2
+
+####faire un commit:
+
+	git commit
+
+####faire un commit avec un commentaire:
+
+	git commit -m "first commit"
+
+####pour « commiter » tous les fichiers qui étaient listés dans git status:
+
+	git commit -a
+
+####pour indiquer lors du commit quels fichiers précis doivent être « commités »:
+
+	git commit nomfichier1 nomfichier2
+
+####créer un serveur de repository , À exécuter sur le serveur:
+
+	git init --bare 
+
+####push an existing repository from the command line:
+
+	git remote add origin https://github.com/irmeche/jsf.git
+	git push -u origin master
