@@ -1,4 +1,4 @@
-* Web site: see: https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git
+* Web site: https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git
 
 ####parametrer les couleur de git:
 
